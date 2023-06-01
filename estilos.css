@@ -1,0 +1,144 @@
+body{
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    background-image: url(rose.jpg);
+    padding-bottom: 100px;
+    padding-top: 150px;
+}
+
+p{
+color: rgb(0, 0, 0);
+}
+
+.conteiner{
+    margin: 0 auto;
+    width: 970px;
+    background-color: rgb(133, 5, 5);
+    padding: 50px;
+    border-radius: 30px;
+    border: 5px solid rgb(104, 14, 14);
+}
+.card{
+    float: left; 
+    padding: 10px;
+    background-color: #ccc;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 5px solid rgb(80, 7, 7);
+}
+
+.card img{
+    float: left;
+    margin: 15px;
+}
+
+.button{
+    text-decoration: none;
+    background-color:rgba(104, 29, 29, 0.973);
+    color: rgba(255, 255, 255, 0.781);
+    padding: 8px;
+    border: 3px solid rgb(85, 6, 6);
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.link{
+    margin-top: 20px;
+    text-align: right;
+}
+
+.clear{
+    clear: both;
+}
+
+h1{
+    font-family: 'PT Sans Caption'; 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'BreeSerif';
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color:#CCCCCC;
+    --main-color:rgb(119, 5, 24);
+    --second-color:#FFFFFF;
+    
+}
+
+header{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px 9%;
+    background-image: url(rose.jpg);
+    height: 80px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.navlist{
+    display: flex;
+}
+
+.navlist a{
+    font-size: var(--p-font);
+    color: var(--text-color);
+    font-weight: 600; 
+    margin: 0 35px;   
+    transition: all ease 0.1s;
+}
+
+.navlist a:hover{
+    color: rgb(78, 23, 23);
+}
+
+.h-main{
+    display: flex;
+    align-items: center;
+    font-size: 27px;
+}
+
+section{
+    padding: 0 12%;
+}
+
+.box{
+    background-color: var(--second-color);
+    padding: 25px, 40px;
+    border-radius: 1rem;
+    box-shadow:15px 15px 15px grey;
+    transition: all ease .45s;
+}
+
+.box:hover{
+    transform: translateY(-5px) scale(1.1);
+}
+
+.card{
+    background-color: var(--second-color);
+    padding: 25px, 40px;
+    border-radius: 1rem;
+    transition: all ease .45s;
+}
+.card:hover{
+    transform: translateY(-5px) scale(1.1);
+}
